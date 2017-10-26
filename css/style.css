@@ -1087,13 +1087,18 @@ footer .social a {
         color: black !important;
     }
 
-    .affix .sidebar a:active, .affix .sidebar a:focus, .affix .sidebar a:visited {
+    .affix .sidebar a:active, .affix .sidebar a:focus {
         color: black !important;
+    }
+
+    .affix .navbar-inverse .navbar-nav>.active>a {
+        color: black !important
     }
 
     .navbar-inverse .navbar-nav>.active>a {
         position: relative;
         background-color: transparent !important;
+
     }
 
     .navbar-inverse .navbar-nav>.active>a:after {
